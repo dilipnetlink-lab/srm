@@ -1,0 +1,219 @@
+/* =================================== */
+/*           1. VARIABLES & SETUP      */
+/* =================================== */
+:root {
+    --srm-blue: #00234C;
+    --srm-yellow: #FDB913;
+    --srm-bg-light: #FAF9F7;
+    --text-dark: #1C1C1C;
+    --text-body: #555555;
+    --border-color: #E0E0E0;
+    --font-heading: 'Sora', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+body { font-family: var(--font-body); color: var(--text-body); background-color: #FFFFFF; }
+.section-title { font-family: var(--font-heading); font-weight: 700; color: var(--srm-blue); line-height: 1.3; }
+.bg-srm-light { background-color: var(--srm-bg-light); }
+.bg-srm-blue { background-color: var(--srm-blue); }
+
+/* =================================== */
+/*           2. HEADER & NAV           */
+/* =================================== */
+.top-bar { background-color: var(--srm-blue); padding: 0.25rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+.top-bar .nav-link { font-size: 0.8rem; color: rgba(255, 255, 255, 0.7); padding: 0.25rem 0.75rem; }
+.top-bar .nav-link:hover { color: #fff; }
+.main-nav { background-color: var(--srm-blue); padding-top: 1rem; padding-bottom: 1rem; }
+.main-nav .navbar-nav .nav-link { font-weight: 500; text-transform: uppercase; font-size: 0.9rem; color: rgba(255, 255, 255, 0.85); margin: 0 0.5rem; transition: color 0.3s; }
+.main-nav .navbar-nav .nav-link:hover, .main-nav .navbar-nav .nav-link.active { color: #fff; }
+.navbar-right-group .btn { font-weight: 600; padding: 0.5rem 1rem; }
+
+/* =================================== */
+/*           3. REUSABLE COMPONENTS    */
+/* =================================== */
+.btn-srm-yellow { background-color: var(--srm-yellow); color: var(--srm-blue); border: 2px solid var(--srm-yellow); font-weight: 700; transition: all 0.3s ease; }
+.btn-srm-yellow:hover { background-color: transparent; color: var(--srm-yellow); border-color: var(--srm-yellow); }
+.btn-srm-yellow-outline { background-color: transparent; border: 1px solid var(--srm-yellow); color: var(--srm-blue); font-weight: 600; padding: 0.5rem 1rem; transition: all 0.3s ease; }
+.btn-srm-yellow-outline:hover { background-color: var(--srm-yellow); color: var(--srm-blue); }
+.btn-outline-srm-blue { color: var(--srm-blue); border-color: var(--srm-blue); font-weight: 600; }
+.btn-outline-srm-blue:hover { background-color: var(--srm-blue); color: #fff; }
+.link-with-arrow { font-weight: 600; color: var(--srm-blue); text-decoration: none; transition: color 0.3s; }
+.link-with-arrow::after { content: '\F138'; font-family: 'bootstrap-icons'; margin-left: 0.5rem; transition: transform 0.3s; display: inline-block; }
+.link-with-arrow:hover { color: #000; }
+.link-with-arrow:hover::after { transform: translateX(4px); }
+
+
+/* =================================== */
+/*    UI-ACCURATE HERO SLIDER STYLES   */
+/* =================================== */
+
+/* Main container styles (mostly unchanged) */
+.hero-slider-section,
+#heroCarousel,
+.carousel-inner,
+.carousel-item.hero-slide {
+    min-height: 85vh;
+}
+
+.carousel-item.hero-slide {
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Background images for each slide - REPLACE WITH YOUR IMAGES */
+.hero-slide-1 { background-image: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/6c757d/343a40?text=Slide+1+BG'); }
+.hero-slide-2 { background-image: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/adb5bd/495057?text=Slide+2+BG'); }
+.hero-slide-3 { background-image: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/ced4da/6c757d?text=Slide+3+BG'); }
+.hero-slide-4 { background-image: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/888/fff?text=Slide+4+BG'); }
+
+/* Hero content styles (unchanged) */
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+
+/*
+ *  CUSTOM INDICATOR STYLES
+ *  This is the key part for matching the UI
+*/
+
+/* 1. Reposition the entire indicator container */
+.hero-slider-section .carousel-indicators {
+    /* Override Bootstrap defaults */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: auto;
+    left: auto;
+    
+    /* New positioning */
+    top: 50%;
+    right: 3rem; /* Adjust distance from the right edge */
+    transform: translateY(-50%);
+    
+    /* Stack indicators vertically */
+    flex-direction: column; 
+}
+
+/* 2. Style each individual indicator button */
+.hero-slider-section .carousel-indicators [data-bs-target] {
+    /* Override Bootstrap defaults */
+    width: 14px;
+    height: 14px;
+    border-radius: 50%; /* Make it a circle */
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    opacity: 1; /* Ensure it's fully visible */
+    transition: all 0.3s ease;
+    
+    /* Set vertical spacing */
+    margin: 8px 0;
+    
+    /* Default (inactive) state: a ring */
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+/* 3. Style the active indicator */
+.hero-slider-section .carousel-indicators .active {
+    /* Active state: a solid circle */
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* 4. Optional: Hide the default prev/next arrows if not needed */
+.hero-slider-section .carousel-control-prev,
+.hero-slider-section .carousel-control-next {
+    display: none;
+}
+
+/* =================================== */
+/*           4. SECTIONS SPECIFIC      */
+/* =================================== */
+/* Hero */
+.hero-section { min-height: 85vh; background: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/ccc/333?text=Hero+BG') no-repeat center center; background-size: cover; }
+.hero-title { font-family: var(--font-heading); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 700; color: #fff; line-height: 1.2; }
+
+/* Core Values */
+.core-values-list { padding-left: 20px; }
+.core-values-list li { position: relative; margin-bottom: 0.5rem; }
+.core-values-list li::before { content: '\2713'; color: var(--srm-yellow); position: absolute; left: -20px; font-weight: bold; }
+
+/* Find Program Box */
+.find-program-box { background-color: #fff; border-radius: 8px; color: var(--text-dark); }
+.find-program-box .nav-pills .nav-link { background-color: #e9ecef; color: var(--srm-blue); margin-right: 10px; font-weight: 600; border: none; border-radius: 4px; }
+.find-program-box .nav-pills .nav-link.active { background-color: var(--srm-blue); color: #fff; }
+
+/* Right Place Section */
+.role-button { display: flex; align-items: center; background-color: var(--srm-blue); color: #fff; padding: 1.25rem; border-radius: 100px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; }
+.role-button img { margin-right: 1rem; border-radius: 50%; }
+.role-button:hover { background-color: #003366; color: var(--srm-yellow); transform: translateY(-3px); box-shadow: 0 4px 15px rgba(0, 35, 76, 0.2); }
+.search-icon { position: absolute; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: var(--text-body); }
+
+/* Schools Cards */
+.school-card { display: block; position: relative; border-radius: 8px; overflow: hidden; height: 100%; }
+.school-card .card-img { height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.school-card:hover .card-img { transform: scale(1.05); }
+.school-card .card-img-overlay { background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 70%); display: flex; flex-direction: column; justify-content: flex-end; padding: 1.5rem; }
+.school-card .card-title { font-family: var(--font-heading); font-weight: 600; color: #fff; margin-bottom: 0.25rem; }
+.school-card .card-text { color: rgba(255, 255, 255, 0.8); font-size: 0.9rem; }
+
+/* Numbers Section */
+.stat-number { font-family: var(--font-heading); font-size: 2.5rem; font-weight: 700; color: var(--srm-blue); display: block; line-height: 1; }
+.stat-label { font-size: 0.9rem; color: var(--text-body); display: block; margin-top: 0.25rem; }
+
+/* Event Card */
+.event-card { display: flex; align-items: center; background-color: #fff; border: 1px solid var(--border-color); border-radius: 8px; padding: 1rem; transition: all 0.3s ease; }
+.event-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
+.event-date { text-align: center; margin-right: 1.5rem; flex-shrink: 0; }
+.event-date .day { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--srm-blue); display: block; line-height: 1; }
+.event-date .month { font-size: 0.9rem; color: var(--text-body); }
+.event-title { font-family: var(--font-body); font-weight: 600; font-size: 1.1rem; color: var(--text-dark); margin-bottom: 0.25rem; }
+.event-time { font-size: 0.9rem; color: var(--text-body); margin-bottom: 0; }
+
+/* News Card */
+.news-card { border: 1px solid var(--border-color); border-radius: 8px; transition: all 0.3s ease; }
+.news-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
+.news-card-img-container { position: relative; }
+.date-badge { position: absolute; top: 10px; left: 10px; background-color: #fff; border-radius: 4px; padding: 0.25rem 0.5rem; text-align: center; line-height: 1; }
+.date-badge .day { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; color: var(--srm-blue); display: block; }
+.date-badge .month { font-size: 0.75rem; text-transform: uppercase; color: var(--text-body); display: block; }
+.news-category { background-color: var(--srm-bg-light); color: var(--srm-blue); font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.5rem; border-radius: 4px; display: inline-block; margin-bottom: 0.75rem; }
+.news-card .card-title { font-size: 1rem; font-weight: 600; color: var(--text-dark); margin-bottom: 1rem; }
+
+/* Research Section */
+.research-links a { display: block; color: rgba(255, 255, 255, 0.7); text-decoration: none; padding: 0.75rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); transition: all 0.3s ease; }
+.research-links a:hover, .research-links a.active { color: #fff; border-bottom-color: var(--srm-yellow); }
+.research-image-box { position: relative; }
+.research-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0, 35, 76, 0.8); backdrop-filter: blur(5px); padding: 1.5rem; }
+.research-overlay h4 { color: #fff; font-family: var(--font-heading); }
+
+/* Greener Future Section */
+.nav-underline-srm { border-bottom: 1px solid var(--border-color); }
+.nav-underline-srm .nav-link { color: var(--text-body); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.nav-underline-srm .nav-link.active, .nav-underline-srm .nav-link:hover { color: var(--srm-blue); border-bottom-color: var(--srm-blue); }
+
+/* Campus Life Collage */
+.campus-life-collage img { border-radius: 8px; width: 100%; height: 100%; object-fit: cover; }
+
+/* Video Section */
+.video-section { min-height: 70vh; background: linear-gradient(rgba(0, 35, 76, 0.6), rgba(0, 35, 76, 0.6)), url('https://placehold.co/1920x1080/ddd/444?text=Campus+Aerial') no-repeat center center; background-size: cover; }
+.play-button i { font-size: 6rem; color: rgba(255, 255, 255, 0.9); transition: color 0.3s, transform 0.3s; }
+.play-button:hover i { color: var(--srm-yellow); transform: scale(1.1); }
+
+/* =================================== */
+/*           5. FOOTER                 */
+/* =================================== */
+footer h5 { color: var(--srm-yellow); font-weight: 600; font-family: var(--font-heading); margin-bottom: 1rem; }
+.footer-links li { margin-bottom: 0.5rem; }
+.footer-links a { color: rgba(255, 255, 255, 0.7); text-decoration: none; transition: color 0.3s; }
+.footer-links a:hover { color: #fff; }
+footer .form-control { background-color: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.3); color: #fff; }
+footer .form-control::placeholder { color: rgba(255, 255, 255, 0.5); }
+.social-icons .social-icon { display: inline-flex; justify-content: center; align-items: center; width: 40px; height: 40px; border-radius: 50%; background-color: rgba(255, 255, 255, 0.1); color: #fff; text-decoration: none; margin: 0 0.25rem; transition: all 0.3s; }
+.social-icons .social-icon:hover { background-color: var(--srm-yellow); color: var(--srm-blue); }
+.footer-link-small { font-size: 0.8rem; color: rgba(255, 255, 255, 0.7); text-decoration: none; }
+.footer-link-small:hover { color: #fff; text-decoration: underline; }

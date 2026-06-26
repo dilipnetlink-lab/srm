@@ -1,0 +1,861 @@
+:root {
+    /* Color */
+    --primaryColor: #002c54;
+    --lightPrimaryColor: #274368;
+    --secondaryColor: #c79f08;
+    --lightSecondaryColor: #c79f0880;
+    --headingColor: #000000;
+    --textColor: #000000;
+    --blackColor: #000000;
+    --whiteColor: #ffffff;
+    --lightWhiteColor: #ffffff80;
+    --greyColor: #e6e7e8;
+    --darkGreyColor: #cccccc;
+    --lightGreyColor: #eeeeee;
+
+    /* FontFamily */
+    --primaryFontFamily: "Outfit", sans-serif;
+    --secondaryFontFamily: "Open Sans", sans-serif;
+    --tertiaryFontFamily: "Montserrat", sans-serif;
+    --quaternaryFontFamily: "Roboto", sans-serif;
+    --textFontFamily: "Inter", sans-serif;
+
+    /* sectionPadding */
+    --sectionPaddingXl: 120px;
+    --sectionPaddingLg: 100px;
+    --sectionPaddingMd: 80px;
+    --sectionPaddingSm: 60px;
+
+    /* HeadingFont */
+    --XXlHeadingFont: 55px;
+    --XlHeadingFont: 46px;
+    --lgHeadingFont: 34px;
+    --mdHeadingFont: 30px;
+    --smHeadingFont: 24px;
+    --xsHeadingFont: 21px;
+
+    /* TagMargin */
+    --xxlMargin: 30px;
+    --xlMargin: 28px;
+    --lgMargin: 26px;
+    --mdMargin: 24px;
+    --smMargin: 22px;
+    --xsMargin: 20px;
+
+    /* TextFont */
+    --lgTextFont: 19px;
+    --normalTextFont: 18px;
+    --mdTextFont: 17px;
+    --smTextFont: 16px;
+    --xsTextFont: 14px;
+
+    /* inputLinBtnFont */
+    --btnNormalFont: 18px;
+    --btnSmFont: 16px;
+    --linkBtnFont: 16px;
+    --linkTextFont: 18px;
+    --inputTextFont: 16px;
+
+    /* OtherFonts */
+    --paginationFont: 18px;
+    --breadcrumbFont: 16px;
+    --socialListTitleFont: 16px;
+    --socialListIconFont: 40px;
+}
+@media only screen and (max-width: 1599.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 110px;
+        --sectionPaddingLg: 90px;
+        --sectionPaddingMd: 75px;
+        --sectionPaddingSm: 55px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 51px;
+        --XlHeadingFont: 43px;
+        --lgHeadingFont: 32px;
+        --mdHeadingFont: 28px;
+        --smHeadingFont: 23px;
+        --xsHeadingFont: 21px;
+
+        /* TagMargin */
+        --xxlMargin: 29px;
+        --xlMargin: 27px;
+        --lgMargin: 25px;
+        --mdMargin: 23px;
+        --smMargin: 21px;
+        --xsMargin: 19px;
+
+        /* TextFont */
+        --lgTextFont: 19px;
+        --normalTextFont: 18px;
+        --mdTextFont: 17px;
+        --smTextFont: 16px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 18px;
+        --btnSmFont: 16px;
+        --linkBtnFont: 16px;
+        --linkTextFont: 18px;
+        --inputTextFont: 16px;
+
+        /* OtherFonts */
+        --paginationFont: 17px;
+        --breadcrumbFont: 16px;
+        --socialListTitleFont: 15px;
+        --socialListIconFont: 37px;
+    }
+}
+@media only screen and (max-width: 1399.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 100px;
+        --sectionPaddingLg: 80px;
+        --sectionPaddingMd: 70px;
+        --sectionPaddingSm: 50px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 47px;
+        --XlHeadingFont: 40px;
+        --lgHeadingFont: 30px;
+        --mdHeadingFont: 26px;
+        --smHeadingFont: 22px;
+        --xsHeadingFont: 20px;
+
+        /* TagMargin */
+        --xxlMargin: 28px;
+        --xlMargin: 26px;
+        --lgMargin: 24px;
+        --mdMargin: 22px;
+        --smMargin: 20px;
+        --xsMargin: 18px;
+
+        /* TextFont */
+        --lgTextFont: 19px;
+        --normalTextFont: 17px;
+        --mdTextFont: 17px;
+        --smTextFont: 16px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 18px;
+        --btnSmFont: 16px;
+        --linkBtnFont: 16px;
+        --linkTextFont: 18px;
+        --inputTextFont: 16px;
+
+        /* OtherFonts */
+        --paginationFont: 17px;
+        --breadcrumbFont: 16px;
+        --socialListTitleFont: 14px;
+        --socialListIconFont: 34px;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 85px;
+        --sectionPaddingLg: 70px;
+        --sectionPaddingMd: 60px;
+        --sectionPaddingSm: 45px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 43px;
+        --XlHeadingFont: 37px;
+        --lgHeadingFont: 28px;
+        --mdHeadingFont: 24px;
+        --smHeadingFont: 21px;
+        --xsHeadingFont: 19px;
+
+        /* TagMargin */
+        --xxlMargin: 27px;
+        --xlMargin: 25px;
+        --lgMargin: 23px;
+        --mdMargin: 21px;
+        --smMargin: 19px;
+        --xsMargin: 17px;
+
+        /* TextFont */
+        --lgTextFont: 18px;
+        --normalTextFont: 17px;
+        --mdTextFont: 16px;
+        --smTextFont: 15px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 17px;
+        --btnSmFont: 15px;
+        --linkBtnFont: 15px;
+        --linkTextFont: 17px;
+        --inputTextFont: 15px;
+
+        /* OtherFonts */
+        --paginationFont: 16px;
+        --breadcrumbFont: 15px;
+        --socialListTitleFont: 14px;
+        --socialListIconFont: 31px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 70px;
+        --sectionPaddingLg: 60px;
+        --sectionPaddingMd: 50px;
+        --sectionPaddingSm: 40px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 39px;
+        --XlHeadingFont: 34px;
+        --lgHeadingFont: 26px;
+        --mdHeadingFont: 22px;
+        --smHeadingFont: 20px;
+        --xsHeadingFont: 19px;
+
+        /* TagMargin */
+        --xxlMargin: 26px;
+        --xlMargin: 24px;
+        --lgMargin: 22px;
+        --mdMargin: 20px;
+        --smMargin: 18px;
+        --xsMargin: 16px;
+
+        /* TextFont */
+        --lgTextFont: 18px;
+        --normalTextFont: 16px;
+        --mdTextFont: 16px;
+        --smTextFont: 15px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 17px;
+        --btnSmFont: 15px;
+        --linkBtnFont: 15px;
+        --linkTextFont: 17px;
+        --inputTextFont: 15px;
+
+        /* OtherFonts */
+        --paginationFont: 16px;
+        --breadcrumbFont: 15px;
+        --socialListTitleFont: 14px;
+        --socialListIconFont: 28px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 55px;
+        --sectionPaddingLg: 50px;
+        --sectionPaddingMd: 40px;
+        --sectionPaddingSm: 35px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 35px;
+        --XlHeadingFont: 31px;
+        --lgHeadingFont: 24px;
+        --mdHeadingFont: 21px;
+        --smHeadingFont: 19px;
+        --xsHeadingFont: 18px;
+
+        /* TagMargin */
+        --xxlMargin: 25px;
+        --xlMargin: 23px;
+        --lgMargin: 21px;
+        --mdMargin: 19px;
+        --smMargin: 17px;
+        --xsMargin: 15px;
+
+        /* TextFont */
+        --lgTextFont: 17px;
+        --normalTextFont: 16px;
+        --mdTextFont: 15px;
+        --smTextFont: 14px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 16px;
+        --btnSmFont: 14px;
+        --linkBtnFont: 14px;
+        --linkTextFont: 16px;
+        --inputTextFont: 14px;
+
+        /* OtherFonts */
+        --paginationFont: 16px;
+        --breadcrumbFont: 14px;
+        --socialListTitleFont: 14px;
+        --socialListIconFont: 25px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingXl: 45px;
+        --sectionPaddingLg: 40px;
+        --sectionPaddingMd: 35px;
+        --sectionPaddingSm: 30px;
+
+        /* HeadingFont */
+        --XXlHeadingFont: 32px;
+        --XlHeadingFont: 28px;
+        --lgHeadingFont: 22px;
+        --mdHeadingFont: 20px;
+        --smHeadingFont: 19px;
+        --xsHeadingFont: 18px;
+
+        /* TagMargin */
+        --xxlMargin: 24px;
+        --xlMargin: 22px;
+        --lgMargin: 20px;
+        --mdMargin: 18px;
+        --smMargin: 16px;
+        --xsMargin: 14px;
+
+        /* TextFont */
+        --lgTextFont: 17px;
+        --normalTextFont: 16px;
+        --mdTextFont: 15px;
+        --smTextFont: 14px;
+
+        /* inputLinBtnFont */
+        --btnNormalFont: 16px;
+        --btnSmFont: 14px;
+        --linkBtnFont: 14px;
+        --linkTextFont: 16px;
+        --inputTextFont: 14px;
+
+        /* OtherFonts */
+        --paginationFont: 16px;
+        --breadcrumbFont: 14px;
+        --socialListTitleFont: 14px;
+        --socialListIconFont: 22px;
+    }
+}
+
+/* Text Colors */
+.primaryColor {
+    color: var(--primaryColor) !important;
+}
+
+.lightPrimaryColor {
+    color: var(--lightPrimaryColor) !important;
+}
+
+.secondaryColor {
+    color: var(--secondaryColor) !important;
+}
+
+.lightSecondaryColor {
+    color: var(--lightSecondaryColor) !important;
+}
+
+.headingColor {
+    color: var(--headingColor) !important;
+}
+
+.textColor {
+    color: var(--textColor) !important;
+}
+
+.blackColor {
+    color: var(--blackColor) !important;
+}
+
+.whiteColor {
+    color: var(--whiteColor) !important;
+}
+
+.lightWhiteColor {
+    color: var(--lightWhiteColor) !important;
+}
+
+.greyColor {
+    color: var(--greyColor) !important;
+}
+
+.darkGreyColor {
+    color: var(--darkGreyColor) !important;
+}
+
+/* Background Colors */
+.primaryBg {
+    background-color: var(--primaryColor) !important;
+}
+
+.lightPrimaryBg {
+    background-color: var(--lightPrimaryColor) !important;
+}
+
+.secondaryBg {
+    background-color: var(--secondaryColor) !important;
+}
+
+.lightSecondaryBg {
+    background-color: var(--lightSecondaryColor) !important;
+}
+
+.headingBg {
+    background-color: var(--headingColor) !important;
+}
+
+.textBg {
+    background-color: var(--textColor) !important;
+}
+
+.blackBg {
+    background-color: var(--blackColor) !important;
+}
+
+.whiteBg {
+    background-color: var(--whiteColor) !important;
+}
+
+.lightWhiteBg {
+    background-color: var(--lightWhiteColor) !important;
+}
+
+.greyBg {
+    background-color: var(--greyColor) !important;
+}
+
+.darkGreyBg {
+    background-color: var(--darkGreyColor) !important;
+}
+
+.section-padding-xl {
+    padding-top: var(--sectionPaddingXl);
+    padding-bottom: var(--sectionPaddingXl);
+}
+
+.section-padding-lg {
+    padding-top: var(--sectionPaddingLg);
+    padding-bottom: var(--sectionPaddingLg);
+}
+
+.section-padding-md {
+    padding-top: var(--sectionPaddingMd);
+    padding-bottom: var(--sectionPaddingMd);
+}
+
+.section-padding-sm {
+    padding-top: var(--sectionPaddingSm);
+    padding-bottom: var(--sectionPaddingSm);
+}
+
+body {
+    color: var(--textColor);
+    font-size: var(--normalTextFont);
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: var(--textFontFamily);
+}
+
+p {
+    color: var(--textColor);
+    font-size: var(--normalTextFont);
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: var(--textFontFamily);
+    margin-bottom: var(--smMargin);
+}
+
+h1,
+.h1 {
+    color: var(--headingColor);
+    font-size: var(--XXlHeadingFont);
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--lgMargin);
+}
+
+h2,
+.h2 {
+    color: var(--headingColor);
+    font-size: var(--XlHeadingFont);
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--lgMargin);
+}
+
+h3,
+.h3 {
+    color: var(--headingColor);
+    font-size: var(--lgHeadingFont);
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--mdMargin);
+}
+
+h4,
+.h4 {
+    color: var(--headingColor);
+    font-size: var(--mdHeadingFont);
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--mdMargin);
+}
+
+h5,
+.h5 {
+    color: var(--headingColor);
+    font-size: var(--smHeadingFont);
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--smMargin);
+}
+
+h6,
+.h6 {
+    color: var(--headingColor);
+    font-size: var(--xsHeadingFont);
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: var(--primaryFontFamily);
+    margin-bottom: var(--smMargin);
+}
+
+.link-btn {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    min-width: 120px;
+    height: auto;
+    background-color: var(--whiteColor);
+    color: var(--blackColor);
+    border-radius: 100px;
+    border: 1px solid var(--blackColor);
+    text-align: center;
+    font-size: var(--linkBtnFont);
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: var(--secondaryFontFamily);
+    padding: 8px 15px;
+}
+
+.link-btn:hover {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+.link-text {
+    color: var(--textColor);
+    font-size: var(--normalTextFont);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--textFontFamily);
+    border-bottom: 1px solid var(--textColor);
+    position: relative;
+}
+
+.link-text:hover {
+    color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.link-text-icon {
+    position: relative;
+    margin-right: 27px;
+}
+
+.link-text-icon:after {
+    content: "\f145";
+    font-family: "bootstrap-icons" !important;
+    position: absolute;
+    right: -35px;
+    font-size: 30px;
+    line-height: 1;
+    rotate: 50deg;
+    top: 0;
+    bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+} 
+
+@media only screen and (max-width: 991.98px) {
+    .title-text-btn-box-title p:last-child {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .link-text-icon:after {
+        font-size: 27px; 
+    }
+}
+
+/* Margin Top (mt) */
+.mt-1 {
+    margin-top: 5px !important;
+}
+
+.mt-2 {
+    margin-top: 10px !important;
+}
+
+.mt-3 {
+    margin-top: 15px !important;
+}
+
+.mt-4 {
+    margin-top: 20px !important;
+}
+
+.mt-5 {
+    margin-top: 25px !important;
+}
+
+.mt-6 {
+    margin-top: 30px !important;
+}
+
+.mt-7 {
+    margin-top: 35px !important;
+}
+
+.mt-8 {
+    margin-top: 40px !important;
+}
+
+.mt-9 {
+    margin-top: 45px !important;
+}
+
+.mt-10 {
+    margin-top: 50px !important;
+}
+
+/* Margin Bottom (mb) */
+.mb-1 {
+    margin-bottom: 5px !important;
+}
+
+.mb-2 {
+    margin-bottom: 10px !important;
+}
+
+.mb-3 {
+    margin-bottom: 15px !important;
+}
+
+.mb-4 {
+    margin-bottom: 20px !important;
+}
+
+.mb-5 {
+    margin-bottom: 25px !important;
+}
+
+.mb-6 {
+    margin-bottom: 30px !important;
+}
+
+.mb-7 {
+    margin-bottom: 35px !important;
+}
+
+.mb-8 {
+    margin-bottom: 40px !important;
+}
+
+.mb-9 {
+    margin-bottom: 45px !important;
+}
+
+.mb-10 {
+    margin-bottom: 50px !important;
+}
+
+/* Padding Top (pt) */
+.pt-1 {
+    padding-top: 5px !important;
+}
+
+.pt-2 {
+    padding-top: 10px !important;
+}
+
+.pt-3 {
+    padding-top: 15px !important;
+}
+
+.pt-4 {
+    padding-top: 20px !important;
+}
+
+.pt-5 {
+    padding-top: 25px !important;
+}
+
+.pt-6 {
+    padding-top: 30px !important;
+}
+
+.pt-7 {
+    padding-top: 35px !important;
+}
+
+.pt-8 {
+    padding-top: 40px !important;
+}
+
+.pt-9 {
+    padding-top: 45px !important;
+}
+
+.pt-10 {
+    padding-top: 50px !important;
+}
+
+/* Padding Bottom (pb) */
+.pb-1 {
+    padding-bottom: 5px !important;
+}
+
+.pb-2 {
+    padding-bottom: 10px !important;
+}
+
+.pb-3 {
+    padding-bottom: 15px !important;
+}
+
+.pb-4 {
+    padding-bottom: 20px !important;
+}
+
+.pb-5 {
+    padding-bottom: 25px !important;
+}
+
+.pb-6 {
+    padding-bottom: 30px !important;
+}
+
+.pb-7 {
+    padding-bottom: 35px !important;
+}
+
+.pb-8 {
+    padding-bottom: 40px !important;
+}
+
+.pb-9 {
+    padding-bottom: 45px !important;
+}
+
+.pb-10 {
+    padding-bottom: 50px !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: inherit;
+    outline: inherit;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+.allWhiteColor * {
+    color: var(--whiteColor);
+}
+.bg-attachment-fixed {
+    background-attachment: fixed;
+}
+.gradient-primary:before {
+    background: linear-gradient(90deg, rgba(1, 31, 64, 0.8) 0%, rgba(3, 77, 161, 0.1) 76.9%) !important;
+}
+.gradient-black:before {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 76.9%) !important;
+}
+.row {
+    --bs-gutter-x: 32px;
+}
+.slick-list {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.slick-slide {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+@media only screen and (max-width: 1399.98px) {
+    .row {
+        --bs-gutter-x: 30px;
+    }
+    .slick-list {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .slick-slide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .row {
+        --bs-gutter-x: 28px;
+    }
+    .slick-list {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .slick-slide {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .row {
+        --bs-gutter-x: 26px;
+    }
+    .slick-list {
+        margin-left: -13px;
+        margin-right: -13px;
+    }
+    .slick-slide {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .row {
+        --bs-gutter-x: 24px;
+    }
+    .slick-list {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .slick-slide {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

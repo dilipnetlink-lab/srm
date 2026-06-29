@@ -18,7 +18,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-sm faculty-con">
+    <div class="container-fluid section-padding faculty-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

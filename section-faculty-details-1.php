@@ -1,5 +1,5 @@
-<?php include 'commons/header-sticky.php'; ?> 
-<section>
+<?php include 'commons/header.php'; ?>
+  <section>
     <div class="container-fluid pt-5">
         <div class="container h-100">
             <div class="row h-100">
@@ -136,4 +136,4 @@
         </div>
     </div>
 </section>
-<?php include 'commons/footer.php'; ?>
+<?php include 'commons/footer.php'; ?> 

@@ -22,7 +22,7 @@
 }
 .pagination-ul ul li a {
     width: auto;
-    font-size: var(--paginationFont);
+    font-size: 18px;
     line-height: 1;
     color: var(--primaryColor);
     border: 1px solid var(--darkGreyColor);
@@ -91,7 +91,7 @@
     width: auto;
     position: relative;
     display: inline-block;
-    font-size: var(--breadcrumbFont);
+    font-size: 16px;
     line-height: 1.5;
     font-family: var(--textFontFamily);
     font-weight: 600;
@@ -163,8 +163,8 @@
     font-size: var(--inputTextFont);
     line-height: 1.5;
     padding: 8px 21px;
-    font-weight: 400;
-    font-family: var(--quaternaryFontFamily);
+    font-weight: 400; 
+    font-family: var(--secondaryFontFamily);
 }
 .input-subscribe::placeholder {
     color: var(--darkGreyColor);
@@ -180,7 +180,7 @@
     color: var(--whiteColor);
     border: 1px solid var(--secondaryColor);
     text-align: center;
-    font-size: var(--btnSmFont);
+    font-size: var(--btnFont);
     line-height: 1;
     font-weight: 400;
     font-family: var(--textFontFamily);
@@ -221,7 +221,7 @@
 }
 .social-list-ul ul li a {
     color: var(--whiteColor);
-    font-size: var(--socialListTitleFont);
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     font-family: var(--textFontFamily);
@@ -232,7 +232,7 @@
     color: var(--secondaryColor);
 }
 .social-list-ul ul li a i {
-    font-size: var(--socialListIconFont);
+    font-size: 40px;
 }
 .social-list-ul ul li a span {
     width: 100%;
@@ -355,12 +355,7 @@
 }
 .banner-caption {
     padding-right: 15px;
-}
-@media only screen and (max-width: 1599.98px) {
-    .right-center-dot .slick-dots {
-        right: 55px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .right-center-dot .slick-dots {
         right: 50px;
@@ -410,17 +405,7 @@
         height: 16px;
         margin: 6px;
     }
-}
-@media only screen and (max-width: 575.98px) {
-    .right-center-dot .slick-dots {
-        right: 10px;
-    }
-    .right-center-dot .slick-dots li {
-        width: 15px;
-        height: 15px;
-        margin: 5px;
-    }
-}
+} 
 /*banner-slider*/
 
 /* page-banner-con */
@@ -761,12 +746,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-@media only screen and (max-width: 1599.98px) {
-    .full-img-caption-box-caption {
-        padding: 70px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .full-img-caption-box-caption {
         padding: 60px;
@@ -824,15 +804,7 @@
 }
 .gallery-con .slick-list {
     overflow: visible;
-}
-@media only screen and (max-width: 1599.98px) {
-    .gallery-slider-col figure {
-        margin-bottom: 23px;
-    }
-    .gallery-slider-col figure img {
-        height: 420px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .gallery-slider-col figure {
         margin-bottom: 22px;
@@ -971,12 +943,7 @@
 }
 .events-card-con .pagination-con {
     padding-top: 30px;
-}
-@media only screen and (max-width: 1599.98px) {
-    .events-card-col {
-        padding: 15px 24px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .events-card-caption h5 a {
         font-size: 18px;
@@ -1140,12 +1107,12 @@
 .programs-download-brochure {
     margin-bottom: 10px;
 }
-.programs-download-brochure .link-btn {
+.programs-download-brochure .btn.btn-white-black-border {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
 }
-.programs-download-brochure .link-btn i {
+.programs-download-brochure .btn.btn-white-black-border i {
     margin-right: 5px;
 }
 .programs-apply {
@@ -1170,15 +1137,7 @@
     right: 5px;
     top: calc(50% - 6px);
     color: var(--secondaryColor);
-}
-@media only screen and (max-width: 1599.98px) {
-    .programs-card-col {
-        padding: 24px;
-    }
-    .programs-card-caption {
-        padding-right: 15px;
-    }
-}
+} 
 @media only screen and (max-width: 1199.98px) {
     .programs-card-col {
         min-height: 190px;
@@ -1699,31 +1658,7 @@
 }
 .tab-box-card-caption {
     padding-right: 20%;
-}
-@media only screen and (max-width: 1599.98px) {
-     .tab-box-menu {
-        padding-left: 100px;
-    }
-    .tab-box-left {
-        padding: 80px 0;
-    }
-    .tab-box-caption {
-        padding: 45px;
-    }
-    .tab-box-card-caption-box {
-        padding: 45px;
-    }
-    .tab-box-card-caption {
-        padding-right: 16%;
-    }
-    .tab-box-card-caption-btn {
-        width: 70px;
-        height: 70px;
-    }
-    .tab-box-card-caption-btn a {
-        font-size: 55px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .tab-box-menu {
         padding-left: 80px;
@@ -1933,12 +1868,7 @@
 .primaryBg .allWhiteColor.number-ol ol li a:hover,
 .primaryBg .allWhiteColor.dot-ul ul li a:hover{
     color: var(--secondaryColor);
-}
-@media only screen and (max-width: 1599.98px) {
-    .half-img-box-caption {
-        padding: 28px 100px 28px 0;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .half-img-box-caption {
         padding: 26px 80px 26px 0;
@@ -1961,7 +1891,7 @@
         margin: 60px auto;
         height: auto;
     }
-    .half-img-box-caption .section-padding-lg {
+    .half-img-box-caption .section-padding {
         padding: 0;
     }
     .half-img-box {
@@ -2025,16 +1955,7 @@
     padding-left: 120px;
     padding-top: 20px;
 }
-
-@media only screen and (max-width: 1599.98px) {
-    .count-card-list-col {
-        padding: 0 0 0 29px;
-    }
-    .half-img-box-caption .count-card-list {
-        padding-left: 100px;
-        padding-top: 19px;
-    }
-}
+ 
 @media only screen and (max-width: 1399.98px) {
     .count-card-list-col {
         padding: 0 0 0 28px;
@@ -2267,12 +2188,7 @@
 .place-search-caption {
     padding-top: 15px;
     padding-right: 15px;
-}
-@media only screen and (max-width: 1599.98px) {
-    .icon-title-card-col {
-        padding: 25px 55px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .icon-title-card-col {
         padding: 25px 50px;
@@ -2652,16 +2568,7 @@ blockquote h6 {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-}
-@media only screen and (max-width: 1599.98px) {
-    .faculty-card-list-flex .faculty-card-full figure {
-        width: 250px;
-    }
-    .faculty-card-list-flex .faculty-card-caption {
-        width: calc(100% - 250px);
-        padding: 25px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .faculty-card-list-flex .faculty-card-full figure {
         width: 200px;
@@ -3267,7 +3174,7 @@ blockquote h6 {
         right: 0;
         top: -90px;
     }
-    .title-slider-arrow-box.section-padding-sm{
+    .title-slider-arrow-box.section-padding{
         padding-top: 0 !important;
     }
     .research-and-innovation-con {
@@ -3450,18 +3357,7 @@ blockquote h6 {
 }
 .faqs-col:first-child .faqs-title{
     padding-top: 0;
-}
-@media only screen and (max-width: 1599.98px) {
-    .faq-section-left-padding{
-        padding-left: 100px; 
-    }
-    .faq-title-box{ 
-        padding: 80px 80px 80px 0;
-    }
-    .faq-text-box{ 
-        padding: 80px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .faq-section-left-padding{
         padding-left: 80px; 

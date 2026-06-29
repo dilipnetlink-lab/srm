@@ -32,7 +32,7 @@
     </div>
 </section> 
 <section>
-    <div id="menu-overview" class="container-fluid section-padding-md two-box-con dot-ul">
+    <div id="menu-overview" class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8 col-xxl-9">
@@ -71,7 +71,7 @@
     </div>
 </section> 
 <section>
-    <div class="container-fluid section-padding-md pt-0 two-box-con dot-ul">
+    <div class="container-fluid section-padding pt-0 two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -123,7 +123,7 @@
             <div class="row h-100 justify-content-end">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
                     <div class="half-img-box-caption allWhiteColor  dot-ul number-ol">
-                        <div class="section-padding-md">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="50">What we look for</h2>
                             <div data-aos="fade-up" data-aos-delay="100">
                                 <p> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. </p>
@@ -143,7 +143,7 @@
     </div>
 </section> 
 <section>
-    <div class="container-fluid section-padding-md two-box-con">
+    <div class="container-fluid section-padding two-box-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -426,7 +426,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul">
+    <div class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -450,7 +450,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid full-video-box-con section-padding-md data-attribute gradient-primary" data-position="center" style="background-image: url('images/experience-our-campus-bg.jpg');">
+    <div class="container-fluid full-video-box-con section-padding data-attribute gradient-primary" data-position="center" style="background-image: url('images/experience-our-campus-bg.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4">
@@ -478,7 +478,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul">
+    <div class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -529,7 +529,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul greyBg pb-lg-0">
+    <div class="container-fluid section-padding two-box-con dot-ul greyBg pb-lg-0">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -577,7 +577,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con">
+    <div class="container-fluid section-padding two-box-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">

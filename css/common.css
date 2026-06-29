@@ -46,19 +46,21 @@ strong {
 }
 
 .section-padding {
-    padding-top: var(--sectionPaddingXl);
-    padding-bottom: var(--sectionPaddingXl);
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 2400px;
     padding-left: 0;
     padding-right: 0;
 }
+
 .container-fluid {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
+
 .row {
     --bs-gutter-x: 40px;
 }
@@ -73,11 +75,7 @@ strong {
     padding-right: 20px;
 }
 
-@media only screen and (max-width: 1399.98px) {
-    .container-fluid {
-        padding-left: 55px;
-        padding-right: 55px;
-    }
+@media only screen and (max-width: 1399.98px) { 
     .row {
         --bs-gutter-x: 38px;
     }
@@ -93,11 +91,7 @@ strong {
     }
 }
 
-@media only screen and (max-width: 1199.98px) {
-    .container-fluid {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+@media only screen and (max-width: 1199.98px) { 
     .row {
         --bs-gutter-x: 36px;
     }
@@ -113,11 +107,7 @@ strong {
     }
 }
 
-@media only screen and (max-width: 991.98px) {
-    .container-fluid {
-        padding-left: 45px;
-        padding-right: 45px;
-    }
+@media only screen and (max-width: 991.98px) { 
     .row {
         --bs-gutter-x: 34px;
     }
@@ -133,11 +123,7 @@ strong {
     }
 }
 
-@media only screen and (max-width: 767.98px) {
-    .container-fluid {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+@media only screen and (max-width: 767.98px) { 
     .row {
         --bs-gutter-x: 32px;
     }
@@ -151,27 +137,7 @@ strong {
         padding-left: 16px;
         padding-right: 16px;
     }
-}
-
-@media only screen and (max-width: 575.98px) {
-    .container-fluid {
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .row {
-        --bs-gutter-x: 30px;
-    }
-
-    .slick-list {
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-
-    .slick-slide {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
+} 
 
 /* Margin Top (mt) */
 .mt-1 {

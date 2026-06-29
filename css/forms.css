@@ -21,7 +21,7 @@ textarea.form-control {
     border-radius: 100px;
     border: 1px solid var(--secondaryColor);
     text-align: center;
-    font-size: var(--btnSmFont);
+    font-size: var(--btnFont);
     line-height: 1;
     font-weight: 600;
     font-family: var(--secondaryFontFamily);
@@ -34,7 +34,7 @@ textarea.form-control {
 }
 .btn-sm {
     padding: 11px 20px 13px;
-    font-size: var(--btnSmFont);
+    font-size: var(--btnFont);
 }
 .btn-md {
     min-width: 160px;
@@ -127,7 +127,4 @@ textarea.form-control {
 }
 
 @media only screen and (max-width: 767.98px) {
-}
-
-@media only screen and (max-width: 575.98px) {
-}
+} 

@@ -55,7 +55,7 @@
     </div>
 </section> 
 <section>
-    <div id="menu-overview" class="container-fluid section-padding-md two-box-con dot-ul">
+    <div id="menu-overview" class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-11 col-lg-9 col-xl-8 col-xxl-7">
@@ -71,7 +71,7 @@
     </div>
 </section> 
 <section>
-    <div class="container-fluid section-padding-md pt-0 two-box-con dot-ul">
+    <div class="container-fluid section-padding pt-0 two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -92,7 +92,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md tab-box-con">
+    <div class="container-fluid section-padding tab-box-con">
         <div class="container">
             <div class="row m-0">
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex p-0">
@@ -170,7 +170,7 @@
     </div>
 </section>
 <section>
-    <div id="menu-courses" class="container-fluid section-padding-md course-details-box-con">
+    <div id="menu-courses" class="container-fluid section-padding course-details-box-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -281,7 +281,7 @@
             <div class="row h-100">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="half-img-box-caption">
-                        <div class="section-padding-md">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="100">Class Profile</h2>
                             <p data-aos="fade-up" data-aos-delay="150">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                             <div class="count-card-list">
@@ -323,7 +323,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md profile-box-con two-box-con allWhiteColor">
+    <div class="container-fluid section-padding profile-box-con two-box-con allWhiteColor">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-8 order-lg-2">
@@ -354,7 +354,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md admission-requirements-box-con">
+    <div class="container-fluid section-padding admission-requirements-box-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12"> 
@@ -422,7 +422,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul greyBg">
+    <div class="container-fluid section-padding two-box-con dot-ul greyBg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -515,7 +515,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con career-opportunities-con">
+    <div class="container-fluid section-padding two-box-con career-opportunities-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -546,7 +546,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul greyBg pb-lg-0">
+    <div class="container-fluid section-padding two-box-con dot-ul greyBg pb-lg-0">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">

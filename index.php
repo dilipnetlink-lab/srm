@@ -1,11 +1,11 @@
 <?php include 'commons/header.php'; ?>
 <section>
     <div class="banner-slider right-center-dot">
-        <div class="container-fluid section-padding-xl banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
+        <div class="container-fluid section-padding banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
             <div class="container h-100">
                 <div class="row align-items-end h-100">
                     <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="banner-caption allWhiteColor section-padding-lg pb-0">
+                        <div class="banner-caption allWhiteColor section-padding pb-0">
                             <h1>Unlock your future at SRM Institute of Science and Technology</h1>
                             <p>At SRM University, we empower students to achieve their dreams through innovative education and holistic development. Join us to explore endless possibilities and shape your future.</p>
                             <div class="btn-con">
@@ -16,11 +16,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid section-padding-xl banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
+        <div class="container-fluid section-padding banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
             <div class="container h-100">
                 <div class="row align-items-end h-100">
                     <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="banner-caption allWhiteColor section-padding-lg pb-0">
+                        <div class="banner-caption allWhiteColor section-padding pb-0">
                             <h1>Unlock your future at SRM Institute of Science and Technology 2</h1>
                             <p>At SRM University, we empower students to achieve their dreams through innovative education and holistic development. Join us to explore endless possibilities and shape your future.</p>
                             <div class="btn-con">
@@ -31,11 +31,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid section-padding-xl banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
+        <div class="container-fluid section-padding banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
             <div class="container h-100">
                 <div class="row align-items-end h-100">
                     <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="banner-caption allWhiteColor section-padding-lg pb-0">
+                        <div class="banner-caption allWhiteColor section-padding pb-0">
                             <h1>Unlock your future at SRM Institute of Science and Technology 3</h1>
                             <p>At SRM University, we empower students to achieve their dreams through innovative education and holistic development. Join us to explore endless possibilities and shape your future.</p>
                             <div class="btn-con">
@@ -46,11 +46,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid section-padding-xl banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
+        <div class="container-fluid section-padding banner-slider-col data-attribute" data-position="center" style="background-image: url('images/banner-slider-img-1.jpg');">
             <div class="container h-100">
                 <div class="row align-items-end h-100">
                     <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="banner-caption allWhiteColor section-padding-lg pb-0">
+                        <div class="banner-caption allWhiteColor section-padding pb-0">
                             <h1>Unlock your future at SRM Institute of Science and Technology 4</h1>
                             <p>At SRM University, we empower students to achieve their dreams through innovative education and holistic development. Join us to explore endless possibilities and shape your future.</p>
                             <div class="btn-con">
@@ -64,7 +64,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg pb-md-0 two-box-con dot-ul">
+    <div class="container-fluid section-padding pb-md-0 two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -92,11 +92,11 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg pt-md-0 pb-md-0  srm-campuses-con">
+    <div class="container-fluid section-padding pt-md-0 pb-md-0  srm-campuses-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="title-slider-arrow-box section-padding-sm" data-aos="fade-up" data-aos-delay="100">
+                    <div class="title-slider-arrow-box section-padding" data-aos="fade-up" data-aos-delay="100">
                         <div class="row">
                             <div class="col-sm-12 col-md-4 col-lg-3">
                                 <div class="title-slider-arrow-box-col">
@@ -230,7 +230,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg two-box-con dot-ul">
+    <div class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -339,7 +339,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg schools-programs-con">
+    <div class="container-fluid section-padding schools-programs-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -491,7 +491,7 @@
             <div class="row h-100">
                 <div class="col-sm-12 col-md-12 col-lg-8 col-xl-7">
                     <div class="half-img-box-caption">
-                        <div class="section-padding-lg">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="100">Numbers at a glance</h2>
                             <p data-aos="fade-up" data-aos-delay="150">At SRM Institute, we are dedicated to fostering innovation and excellence in education. Join us on a journey to unlock your potential.</p>
                             <div class="count-card-list">
@@ -581,7 +581,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg events-con">
+    <div class="container-fluid section-padding events-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -728,7 +728,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg news-con pt-0">
+    <div class="container-fluid section-padding news-con pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -769,7 +769,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRMIST Hosts National Conference on Micro Irrigation (NCMI) 2025 </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -790,7 +790,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRM Institute of Science and Technology Hosts Inaugural Ceremony of COACONS-2025 </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -811,7 +811,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> Dr. Mohanakrishnan of SRMIST Honored with SDG Impact Award for Promoting Peace Through Sports </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -832,7 +832,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRMIST Hosts ICONN 2025, Showcasing Global Advancements in Nanoscience and Nanotechnology  </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -845,7 +845,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg tab-box-con">
+    <div class="container-fluid section-padding tab-box-con">
         <div class="container">
             <div class="row m-0">
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex p-0">
@@ -955,7 +955,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-lg two-box-con">
+    <div class="container-fluid section-padding two-box-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 align-self-center">
@@ -1007,9 +1007,9 @@
         </div>
     </div>
 </section>
-<div class="section-padding-lg pb-0"></div>
+<div class="section-padding pb-0"></div>
 <section>
-    <div class="container-fluid full-video-box-con section-padding-lg data-attribute gradient-primary" data-position="center" style="background-image: url('images/experience-our-campus-bg.jpg');">
+    <div class="container-fluid full-video-box-con section-padding data-attribute gradient-primary" data-position="center" style="background-image: url('images/experience-our-campus-bg.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4">

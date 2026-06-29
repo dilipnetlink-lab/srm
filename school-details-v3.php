@@ -43,7 +43,7 @@
     </div>
 </section> 
 <section>
-    <div id="menu-about" class="container-fluid section-padding-md two-box-con dot-ul">
+    <div id="menu-about" class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -70,7 +70,7 @@
             <div class="row h-100 justify-content-end">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
                     <div class="half-img-box-caption allWhiteColor  dot-ul number-ol">
-                        <div class="section-padding-md">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="50">Unlock your potential with our programs</h2>
                             <div data-aos="fade-up" data-aos-delay="100">
                                 <p> We provide treatments across 52 departments including Superspeciality departments like Cardiology, Nephrology, Urology, Neurosurgery etc. It is the largest hospital in Chengalpattu district and can serve over 3,00,000 in and around Kattankulanthur. The hospital is a brilliant platform to change the world for better by offering excellent treatment while improving the careers of our healthcare experts.</p>
@@ -174,7 +174,7 @@
     </div>
 </section> 
 <section>
-    <div class="container-fluid section-padding-md schools-programs-con lightSecondaryBg">
+    <div class="container-fluid section-padding schools-programs-con lightSecondaryBg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -294,7 +294,7 @@
             <div class="row h-100">
                 <div class="col-sm-12 col-md-12 col-lg-8 col-xl-7">
                     <div class="half-img-box-caption">
-                        <div class="section-padding-md">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="100">Research</h2>
                             <p data-aos="fade-up" data-aos-delay="150">The environment necessary to making teaching and learning a seamless, enjoyable and productive venture requires all the aids, facilities and infrastructure. At SRMIST, our students, scholars and faculty members get best resources and infrastructure.</p>
                             <p data-aos="fade-up" data-aos-delay="200">The infrastructure facilities are quite commendable and a computer laboratory with more than 600 computers, a Biotech lab with sophisticated instruments, a visual studio, editing and dubbing suites and a preview theatre are all made available to our students cutting across disciplines.</p>
@@ -338,7 +338,7 @@
     </div>
 </section> 
 <section>
-    <div class="container-fluid section-padding-md profile-box-con two-box-con allWhiteColor">
+    <div class="container-fluid section-padding profile-box-con two-box-con allWhiteColor">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-8 order-lg-2">
@@ -366,7 +366,7 @@
     </div>
 </section>
 <section>
-    <div id="laboratories-and-facilities" class="container-fluid full-img-caption-box-con section-padding-xl data-attribute" data-overlay-dark="2" data-position="center" style="background-image: url('images/full-img-caption-box-img.jpg');">
+    <div id="laboratories-and-facilities" class="container-fluid full-img-caption-box-con section-padding data-attribute" data-overlay-dark="2" data-position="center" style="background-image: url('images/full-img-caption-box-img.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-end">
                 <div class="col-sm-8 col-md-7 col-lg-6">

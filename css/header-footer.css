@@ -135,12 +135,7 @@ header {
 }
 .activeHeader.header-con .navbar-brand img {
     width: 180px;
-}
-@media only screen and (max-width: 1599.98px) {
-    .menu-header ul li{
-        padding: 0 11px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .menu-header ul li{
         padding: 0 10px;
@@ -275,12 +270,7 @@ header {
     font-family: var(--primaryFontFamily);
     margin-left: auto;
     padding-right: 15px;
-}
-@media only screen and (max-width: 1599.98px) {
-    .line-menu-ul ul li{
-        padding: 0 12px;
-    }
-}
+} 
 @media only screen and (max-width: 1399.98px) {
     .line-menu-ul ul li{
         padding: 0 10px;
@@ -551,10 +541,4 @@ footer {
         padding-top: 16px;
         padding-bottom: 16px;
     }
-}
-@media only screen and (max-width: 575.98px) {
-    .footer-social-con {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-}
+} 

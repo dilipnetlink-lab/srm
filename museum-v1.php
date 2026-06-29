@@ -23,7 +23,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul">
+    <div class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -101,7 +101,7 @@
     </div>
 </section>    
 <section>
-    <div class="container-fluid section-padding-md two-box-con dot-ul">
+    <div class="container-fluid section-padding two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -158,7 +158,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid full-video-box-con section-padding-md data-attribute" data-position="center" style="background-image: url('images/full-video-box-img.jpg');">
+    <div class="container-fluid full-video-box-con section-padding data-attribute" data-position="center" style="background-image: url('images/full-video-box-img.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4">
@@ -186,7 +186,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md gallery-con">
+    <div class="container-fluid section-padding gallery-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

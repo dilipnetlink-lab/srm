@@ -52,7 +52,7 @@
     </div>
 </section>
 <section>
-    <div id="menu-overview" class="container-fluid section-padding-md pb-md-0 two-box-con dot-ul">
+    <div id="menu-overview" class="container-fluid section-padding pb-md-0 two-box-con dot-ul">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-11 col-lg-9 col-xl-8">
@@ -75,7 +75,7 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid section-padding-md  research-and-innovation-con">
+    <div class="container-fluid section-padding  research-and-innovation-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -134,7 +134,7 @@
             <div class="row h-100">
                 <div class="col-sm-12 col-md-12 col-lg-8 col-xl-7">
                     <div class="half-img-box-caption">
-                        <div class="section-padding-md">
+                        <div class="section-padding">
                             <h2 data-aos="fade-up" data-aos-delay="100">Researcg Endevour</h2>
                             <p data-aos="fade-up" data-aos-delay="150">At SRM Institute, we are dedicated to fostering innovation and excellence in education. Join us on a journey to unlock your potential.</p>
                             <div class="count-card-list">
@@ -192,7 +192,7 @@
     </div>
 </section>
 <section>
-    <div id="menu-dean" class="container-fluid section-padding-md profile-box-con two-box-con allWhiteColor">
+    <div id="menu-dean" class="container-fluid section-padding profile-box-con two-box-con allWhiteColor">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-8 order-lg-2">
@@ -220,7 +220,7 @@
     </div>
 </section>
 <section>
-    <div id="menu-news" class="container-fluid section-padding-md news-con">
+    <div id="menu-news" class="container-fluid section-padding news-con">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -261,7 +261,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRMIST Hosts National Conference on Micro Irrigation (NCMI) 2025 </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRM Institute of Science and Technology Hosts Inaugural Ceremony of COACONS-2025 </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> Dr. Mohanakrishnan of SRMIST Honored with SDG Impact Award for Promoting Peace Through Sports </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,7 +324,7 @@
                                         </div>
                                         <h5><a href="javascript:void(0);"> SRMIST Hosts ICONN 2025, Showcasing Global Advancements in Nanoscience and Nanotechnology  </a> </h5>
                                         <div class="news-card-btn">
-                                            <a href="javascript:void(0);" class="link-btn">Read more</a>
+                                            <a href="javascript:void(0);" class="btn btn-white-black-border">Read more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -337,7 +337,7 @@
     </div>
 </section>
 <section>
-    <div id="menu-facilities" class="container-fluid full-img-caption-box-con section-padding-xl data-attribute" data-overlay-dark="2" data-position="center" style="background-image: url('images/full-img-caption-box-img.jpg');">
+    <div id="menu-facilities" class="container-fluid full-img-caption-box-con section-padding data-attribute" data-overlay-dark="2" data-position="center" style="background-image: url('images/full-img-caption-box-img.jpg');">
         <div class="container">
             <div class="row align-items-center justify-content-end">
                 <div class="col-sm-8 col-md-7 col-lg-6">

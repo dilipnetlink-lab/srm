@@ -18,14 +18,14 @@
     --tertiaryFontFamily: "Montserrat", sans-serif;
     --textFontFamily: "Inter", sans-serif;
     /* sectionPadding */
-    --sectionPadding: clamp(80px, 6vw, 90px);
+    --sectionPadding: 85px;
     /* HeadingFont */
-    --XXlHeadingFont: clamp(47px, 4vw, 55px);
-    --XlHeadingFont: clamp(40px, 3.5vw, 46px);
-    --lgHeadingFont: clamp(30px, 2.8vw, 34px);
-    --mdHeadingFont: clamp(26px, 2.4vw, 30px);
-    --smHeadingFont: clamp(22px, 2vw, 24px);
-    --xsHeadingFont: clamp(20px, 1.8vw, 21px);
+    --XXlHeadingFont: 55px;
+    --XlHeadingFont: 46px;
+    --lgHeadingFont: 34px;
+    --mdHeadingFont: 30px;
+    --smHeadingFont: 24px;
+    --xsHeadingFont: 21px; 
     /* TagMargin */
     --lgMargin: 25px;
     --mdMargin: 23px;
@@ -38,101 +38,163 @@
     --btnFont: 16px;
     --inputTextFont: 16px;
 }
-@media only screen and (max-width: 1399.98px) {
+@media only screen and (max-width: 1799.98px) {
     :root {
-        --sectionPadding: clamp(70px, 5vw, 80px);
+         /* sectionPadding */
+        --sectionPadding: 80px;
 
-        --XXlHeadingFont: clamp(43px, 3.8vw, 47px);
-        --XlHeadingFont: clamp(37px, 3.2vw, 40px);
-        --lgHeadingFont: clamp(28px, 2.6vw, 30px);
-        --mdHeadingFont: clamp(24px, 2.2vw, 26px);
-        --smHeadingFont: clamp(21px, 2vw, 22px);
-        --xsHeadingFont: clamp(19px, 1.8vw, 20px);
+        /* HeadingFont */
+        --XXlHeadingFont: 50px;
+        --XlHeadingFont: 43px;
+        --lgHeadingFont: 33px;
+        --mdHeadingFont: 29px;
+        --smHeadingFont: 24px;
+        --xsHeadingFont: 21px; 
 
+         /* TagMargin */
         --lgMargin: 24px;
         --mdMargin: 22px;
         --smMargin: 20px;
-
-        --normalTextFont: clamp(17px, 1.2vw, 17px);
-        --smTextFont: clamp(15px, 1.1vw, 15px);
-        --xsTextFont: clamp(13px, 1vw, 13px);
-
-        --btnFont: 15px;
-        --inputTextFont: 15px;
     }
 }
-
-@media only screen and (max-width: 1199.98px) {
+@media only screen and (max-width: 1599.98px) {
     :root {
-        --sectionPadding: clamp(60px, 5vw, 70px);
+        /* sectionPadding */
+        --sectionPadding: 75px;
 
-        --XXlHeadingFont: clamp(39px, 3.6vw, 43px);
-        --XlHeadingFont: clamp(34px, 3vw, 37px);
-        --lgHeadingFont: clamp(26px, 2.5vw, 28px);
-        --mdHeadingFont: clamp(22px, 2vw, 24px);
-        --smHeadingFont: clamp(20px, 1.8vw, 21px);
-        --xsHeadingFont: 19px;
+        /* HeadingFont */
+       --XXlHeadingFont: 45px;
+        --XlHeadingFont: 40px;
+        --lgHeadingFont: 32px;
+        --mdHeadingFont: 28px;
+        --smHeadingFont: 23px;
+        --xsHeadingFont: 20px; 
 
+       /* TagMargin */
         --lgMargin: 23px;
         --mdMargin: 21px;
         --smMargin: 19px;
 
-        --normalTextFont: 17px;
-        --smTextFont: 15px;
-        --xsTextFont: 13px;
-
-        --btnFont: 15px;
-        --inputTextFont: 15px;
+        /* TextFont */
+        --normalTextFont: 18px;
+        --smTextFont: 16px;
+        --xsTextFont: 14px;
+        /* inputLinBtnFont */
+        --btnFont: 16px;
+        --inputTextFont: 16px;
     }
 }
-
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 1399.98px) {
     :root {
-        --sectionPadding: clamp(50px, 5vw, 60px);
+        /* sectionPadding */
+        --sectionPadding: 70px;
 
-        --XXlHeadingFont: clamp(35px, 3.4vw, 39px);
-        --XlHeadingFont: clamp(31px, 3vw, 34px);
-        --lgHeadingFont: clamp(24px, 2.3vw, 26px);
-        --mdHeadingFont: clamp(21px, 2vw, 22px);
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 18px;
+        /* HeadingFont */
+        --XXlHeadingFont: 40px;
+        --XlHeadingFont: 37px;
+        --lgHeadingFont: 31px;
+        --mdHeadingFont: 27px;
+        --smHeadingFont: 23px;
+        --xsHeadingFont: 20px; 
 
+        /* TagMargin */
         --lgMargin: 22px;
         --mdMargin: 20px;
         --smMargin: 18px;
-
-        --normalTextFont: 16px;
-        --smTextFont: 14px;
-        --xsTextFont: 12px;
-
-        --btnFont: 14px;
-        --inputTextFont: 14px;
     }
 }
-
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 1199.98px) {
     :root {
-        --sectionPadding: clamp(40px, 5vw, 50px);
+        /* sectionPadding */
+        --sectionPadding: 65px;
 
-        --XXlHeadingFont: clamp(32px, 3vw, 35px);
-        --XlHeadingFont: clamp(28px, 2.8vw, 31px);
-        --lgHeadingFont: clamp(22px, 2.2vw, 24px);
-        --mdHeadingFont: 20px;
-        --smHeadingFont: 19px;
-        --xsHeadingFont: 18px;
+        /* HeadingFont */
+       --XXlHeadingFont: 38px;
+        --XlHeadingFont: 34px;
+        --lgHeadingFont: 30px;
+        --mdHeadingFont: 26px;
+        --smHeadingFont: 22px;
+        --xsHeadingFont: 19px; 
 
+        /* TagMargin */
         --lgMargin: 21px;
         --mdMargin: 19px;
         --smMargin: 17px;
 
+        /* TextFont */
+        --normalTextFont: 17px;
+        --smTextFont: 15px;
+        --xsTextFont: 13px;
+        /* inputLinBtnFont */
+        --btnFont: 15px;
+        --inputTextFont: 15px;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPadding: 60px;
+
+        /* HeadingFont */
+         --XXlHeadingFont: 36px;
+        --XlHeadingFont: 31px;
+        --lgHeadingFont: 29px;
+        --mdHeadingFont: 25px;
+        --smHeadingFont: 22px;
+        --xsHeadingFont: 19px; 
+
+       /* TagMargin */
+        --lgMargin: 20px;
+        --mdMargin: 18px;
+        --smMargin: 16px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    :root {
+        /* sectionPadding */
+        --sectionPaddingMd: 55px;
+
+        /* HeadingFont */
+       --XXlHeadingFont: 34px;
+        --XlHeadingFont: 28px;
+        --lgHeadingFont: 27px;
+        --mdHeadingFont: 24px;
+        --smHeadingFont: 21px;
+        --xsHeadingFont: 18px; 
+
+        /* TagMargin */
+        --lgMargin: 19px;
+        --mdMargin: 17px;
+        --smMargin: 15px;
+
+        /* TextFont */
         --normalTextFont: 16px;
         --smTextFont: 14px;
         --xsTextFont: 12px;
-
+        /* inputLinBtnFont */
         --btnFont: 14px;
         --inputTextFont: 14px;
     }
 }
+@media only screen and (max-width: 575.98px) {
+    :root { 
+        /* sectionPadding */
+        --sectionPaddingMd: 50px;
+        /* HeadingFont */
+        --XXlHeadingFont: 32px;
+        --XlHeadingFont: 27px;
+        --lgHeadingFont: 25px;
+        --mdHeadingFont: 23px;
+        --smHeadingFont: 21px;
+        --xsHeadingFont: 18px; 
+
+        /* TagMargin */
+        --lgMargin: 18px;
+        --mdMargin: 16px;
+        --smMargin: 14px;
+    }
+}
+
 /* Text Colors */
 .primaryColor {
     color: var(--primaryColor) !important;

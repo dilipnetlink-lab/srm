@@ -74,24 +74,29 @@ strong {
     padding-left: 20px;
     padding-right: 20px;
 }
-
-@media only screen and (max-width: 1399.98px) { 
-    .row {
-        --bs-gutter-x: 38px;
-    }
-
-    .slick-list {
-        margin-left: -19px;
-        margin-right: -19px;
-    }
-
-    .slick-slide {
-        padding-left: 19px;
-        padding-right: 19px;
+@media only screen and (max-width: 1999.98px) {
+    .container-fluid {
+        padding-left: 7%;
+        padding-right: 7%;
     }
 }
-
-@media only screen and (max-width: 1199.98px) { 
+@media only screen and (max-width: 1799.98px) {
+    .container-fluid {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+@media only screen and (max-width: 1599.98px) {
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen and (max-width: 1399.98px) {
+    .container-fluid {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
     .row {
         --bs-gutter-x: 36px;
     }
@@ -107,23 +112,11 @@ strong {
     }
 }
 
-@media only screen and (max-width: 991.98px) { 
-    .row {
-        --bs-gutter-x: 34px;
+@media only screen and (max-width: 1199.98px) {
+    .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
     }
-
-    .slick-list {
-        margin-left: -17px;
-        margin-right: -17px;
-    }
-
-    .slick-slide {
-        padding-left: 13px;
-        padding-right: 13px;
-    }
-}
-
-@media only screen and (max-width: 767.98px) { 
     .row {
         --bs-gutter-x: 32px;
     }
@@ -137,8 +130,47 @@ strong {
         padding-left: 16px;
         padding-right: 16px;
     }
-} 
+}
 
+@media only screen and (max-width: 991.98px) {
+    .container-fluid {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .row {
+        --bs-gutter-x: 28px;
+    }
+
+    .slick-list {
+        margin-left: -14px;
+        margin-right: -14px;
+    }
+
+    .slick-slide {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row {
+        --bs-gutter-x: 24px;
+    }
+
+    .slick-list {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .slick-slide {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
 /* Margin Top (mt) */
 .mt-1 {
     margin-top: 5px !important;

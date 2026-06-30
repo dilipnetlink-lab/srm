@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid footer-link-con section-padding">
+    <div class="container-fluid footer-link-con">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
@@ -114,12 +114,12 @@
     <div class="container-fluid footer-social-con">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-3 col-xxl-4">
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-4">
                     <div class="footer-social-col footer-logo" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                         <figure><a href="index.php"><img src="images/logo-white.svg" alt="logo"></a></figure>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9 col-xxl-8">
+                <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-8">
                     <div class="footer-social-col social-list-con">
                         <div class="social-list-ul">
                             <ul>

@@ -99,11 +99,11 @@ textarea.form-control {
     color: var(--whiteColor);
     border-color: var(--primaryColor);
 }
-.btn-up-arrow span{
+.btn-up-arrow span {
     position: relative;
     margin-right: 30px;
 }
-.btn-up-arrow span::after{
+.btn-up-arrow span::after {
     content: "\f145";
     font-family: "bootstrap-icons" !important;
     position: absolute;
@@ -115,7 +115,7 @@ textarea.form-control {
     bottom: 0;
     display: inline-flex;
     align-items: center;
-    justify-content: end
+    justify-content: end;
 }
 @media only screen and (max-width: 1399.98px) {
 }
@@ -127,4 +127,4 @@ textarea.form-control {
 }
 
 @media only screen and (max-width: 767.98px) {
-} 
+}
